@@ -32,7 +32,7 @@ public class Banco {
         System.out.println("Conta criada com sucesso");
     }
     public void excluirconta(){
-        System.out.print("Digite o numero da conta a ser excluída: ");
+        System.out.print("Digite o numero da conta a ser excluida: ");
         int num = lerInt();
         for (Conta conta : contas) {
             // foreach para pegar cada conta no array contas
