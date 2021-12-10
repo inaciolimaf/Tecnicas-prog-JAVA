@@ -8,7 +8,7 @@ public class Empregado {
 	public Empregado(String nome, String sobrenome, float salario) {
 		this.nome = nome;
 		this.sobrenome = sobrenome;
-		setSalario(salario);;
+		setSalario(salario);
 	}
 	public String getNome() {
 		return nome;
